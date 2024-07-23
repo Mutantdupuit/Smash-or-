@@ -5,45 +5,28 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] TextMeshProUGUI Dialog;
-    [SerializeField] TextMeshProUGUI Name;
-    class Personnage
-    {
-        public string name;
-        int id_dialog = 0;
-        public List<Dialogue> dialogs;
+    int vie;
+    int mental;
+    int romance;
 
-        public Personnage(string name)
-        {
-            this.name = name;
-            dialogs = new List<Dialogue>();
-            dialogs.Add(new Dialogue("Salut"));
-            dialogs.Add(new Dialogue("D'accord ça me vas"));
-            dialogs.Add(new Dialogue("Va chier!"));
+    public int Mental { get => mental; set => mental = value; }
+    public int Romance { get => romance; set => romance = value; }
+    public int Vie { get => vie; set => vie = value; }
 
 
-        }
-
-        public void Reponse()
-        {
-
-        }
-
-
-    }
     // Start is called before the first frame update
     void Start()
     {
-        Personnage barman = new Personnage("barman");
-        Dialog = GameObject.Find("dialogue").GetComponent<TextMeshProUGUI>();
-        Dialog.text = barman.dialogs[0].dialog;
-        Name = GameObject.Find("Name_Text").GetComponent<TextMeshProUGUI>();
-        Name.text = barman.name;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(vie == 0)
+        {
+
+        }
     }
+
 }
