@@ -25,28 +25,32 @@ public class ChoixScript : MonoBehaviour
     public void ShowNextDialog1()
     {
         nextDialog1.GetComponent<Canvas>().enabled = true;
-        nextDialog1.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog1.GetComponent<DialogScript>() != null)
+            nextDialog1.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog2()
     {
         nextDialog2.GetComponent<Canvas>().enabled = true;
-        nextDialog2.GetComponent<DialogScript>().enabled = true;
+        if(nextDialog2.GetComponent<DialogScript>() != null)
+            nextDialog2.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog3()
     {
         nextDialog3.GetComponent<Canvas>().enabled = true;
-        nextDialog3.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog3.GetComponent<DialogScript>() != null)
+            nextDialog3.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog4()
     {
         nextDialog4.GetComponent<Canvas>().enabled = true;
-        nextDialog4.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog4.GetComponent<DialogScript>() != null)
+            nextDialog4.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
         
     }
@@ -54,5 +58,11 @@ public class ChoixScript : MonoBehaviour
    public void SetActif(bool isActive)
    {
         this.gameObject.SetActive(isActive);
+   }
+
+    public void SetSceneSystem(GameObject sceneManager)
+    {
+        if (sceneManager.GetComponent<SceneManager>() != null)
+             sceneManager.GetComponent<SceneManager>().enabled = true;
     }
 }
