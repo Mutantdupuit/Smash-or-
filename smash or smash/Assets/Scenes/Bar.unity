@@ -3683,12 +3683,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nextDialog1: {fileID: 674991814}
   nextDialog2: {fileID: 754302349}
-  nextDialog3: {fileID: 0}
-  nextDialog4: {fileID: 0}
+  nextDialog3: {fileID: 674991814}
+  nextDialog4: {fileID: 754302349}
   button1: {fileID: 1711616213}
   button2: {fileID: 1575427966}
-  button3: {fileID: 0}
-  button4: {fileID: 0}
+  button3: {fileID: 1711616213}
+  button4: {fileID: 1575427966}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
