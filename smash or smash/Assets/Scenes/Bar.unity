@@ -3562,12 +3562,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4455181948932405807, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 315.0302
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455181948932405807, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 72.398
+      value: 44.4286
+      objectReference: {fileID: 0}
+    - target: {fileID: 4455181948932405807, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -157.51506
       objectReference: {fileID: 0}
     - target: {fileID: 4455181948932405807, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -105.9
+      value: -129.88469
       objectReference: {fileID: 0}
     - target: {fileID: 4490285676223935936, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_text
@@ -3605,13 +3613,25 @@ PrefabInstance:
       propertyPath: m_Name
       value: 'choix '
       objectReference: {fileID: 0}
+    - target: {fileID: 6565763180613556888, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202880219609695660, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 315.04
+      objectReference: {fileID: 0}
     - target: {fileID: 7202880219609695660, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 72.3935
+      value: 30.4394
+      objectReference: {fileID: 0}
+    - target: {fileID: 7202880219609695660, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -157.52
       objectReference: {fileID: 0}
     - target: {fileID: 7202880219609695660, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -105.89673
+      value: -85.57703
       objectReference: {fileID: 0}
     - target: {fileID: 8237632808774273901, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_text
@@ -3636,7 +3656,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8406578621252415975, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
