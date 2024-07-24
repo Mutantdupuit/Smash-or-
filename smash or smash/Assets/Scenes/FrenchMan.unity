@@ -4495,12 +4495,12 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5387637483529634072}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3956fad04fd6b574c805435c22a9707e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  NameScene: 
+  NameScene: "d\xE9butTournoi"
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

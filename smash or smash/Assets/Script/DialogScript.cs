@@ -19,6 +19,8 @@ public class DialogScript : MonoBehaviour
             nextDialog.GetComponent<Canvas>().enabled = true;
         if(nextDialog.GetComponent<DialogScript>() != null)
             nextDialog.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog.GetComponent<SceneManager>() != null)
+            nextDialog.GetComponent<SceneManager>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
     }
 }
