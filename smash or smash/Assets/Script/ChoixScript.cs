@@ -17,7 +17,8 @@ public class ChoixScript : MonoBehaviour
         button1.onClick.AddListener(ShowNextDialog1);
         button2.onClick.AddListener(ShowNextDialog2);
         button3.onClick.AddListener(ShowNextDialog3);
-        button4.onClick.AddListener(ShowNextDialog4);
+       // if(button4 != null)
+            button4.onClick.AddListener(ShowNextDialog4);
     }
 
     
