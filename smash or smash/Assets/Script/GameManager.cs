@@ -6,28 +6,21 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    int vie;
-    int mental;
-    int romance;
-
-    public int Mental { get => mental; set => mental = value; }
-    public int Romance { get => romance; set => romance = value; }
-    public int Vie { get => vie; set => vie = value; }
+    Character player;
 
 
     // Start is called before the first frame update
     void Start()
     {
-
+        player =  new Character();
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(vie == 0)
+        if(player.Vie <= 0)
         {
-            
+            // GAME OVER
         }
     }
-
 }
