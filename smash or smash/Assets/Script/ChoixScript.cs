@@ -25,27 +25,33 @@ public class ChoixScript : MonoBehaviour
     {
         nextDialog1.GetComponent<Canvas>().enabled = true;
         nextDialog1.GetComponent<DialogScript>().enabled = true;
-        gameObject.SetActive(false);
+        this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog2()
     {
         nextDialog2.GetComponent<Canvas>().enabled = true;
         nextDialog2.GetComponent<DialogScript>().enabled = true;
-        gameObject.SetActive(false);
+        this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog3()
     {
         nextDialog3.GetComponent<Canvas>().enabled = true;
         nextDialog3.GetComponent<DialogScript>().enabled = true;
-        gameObject.SetActive(false);
+        this.GetComponent<Canvas>().enabled = false;
     }
 
     public void ShowNextDialog4()
     {
         nextDialog4.GetComponent<Canvas>().enabled = true;
         nextDialog4.GetComponent<DialogScript>().enabled = true;
-        gameObject.SetActive(false);
+        this.GetComponent<Canvas>().enabled = false;
+        
+    }
+
+   public void SetActif(bool isActive)
+   {
+        this.gameObject.SetActive(isActive);
     }
 }
