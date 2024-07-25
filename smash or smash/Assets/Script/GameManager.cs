@@ -3,14 +3,16 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEditor.Search;
 using UnityEngine;
+using UnityEditor.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
     public Character player;
+    [SerializeField] private string GameOver;
 
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         player =  new Character();
     }
@@ -20,6 +22,7 @@ public class GameManager : MonoBehaviour
     {
         if(player.Vie <= 0)
         {
+            LoadScene2();
             // GAME OVER
         }
     }
@@ -27,5 +30,10 @@ public class GameManager : MonoBehaviour
     public void TakeDamage(int damage)
     {
         player.Vie -= damage;
+    }
+
+    void LoadScene2()
+    {
+        EditorSceneManager.LoadScene(GameOver);
     }
 }

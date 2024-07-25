@@ -256,6 +256,7 @@ MonoBehaviour:
   nextDialog2: {fileID: 0}
   nextDialog3: {fileID: 0}
   nextDialog4: {fileID: 0}
+  eventSystem: {fileID: 0}
   button1: {fileID: 1407042956}
   button2: {fileID: 0}
   button3: {fileID: 0}
@@ -3781,6 +3782,7 @@ MonoBehaviour:
   nextDialog2: {fileID: 754302349}
   nextDialog3: {fileID: 674991814}
   nextDialog4: {fileID: 754302349}
+  eventSystem: {fileID: 1705381530}
   button1: {fileID: 1711616213}
   button2: {fileID: 1575427966}
   button3: {fileID: 1711616213}

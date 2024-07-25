@@ -5098,6 +5098,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 166d12943cae9d442b55a79bca4b1626, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GameOver: GameOver
 --- !u!4 &1829269938
 Transform:
   m_ObjectHideFlags: 0
