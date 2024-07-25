@@ -4,10 +4,13 @@ using UnityEngine;
 
 public class Boris : Character
 {
+    
     public Boris() : base()
     {
         this.Mental = 100;
         this.Romance = 0;
-        //this.Degat = 10;
+       
+
+        this.force = 10;
     }
 }

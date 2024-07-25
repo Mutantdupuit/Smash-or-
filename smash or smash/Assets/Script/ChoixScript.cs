@@ -32,6 +32,8 @@ public class ChoixScript : MonoBehaviour
         nextDialog1.GetComponent<Canvas>().enabled = true;
         if (nextDialog1.GetComponent<DialogScript>() != null)
             nextDialog1.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog1.GetComponent<ActionScript>() != null)
+            nextDialog1.GetComponent<ActionScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
         eventSystem.SetSelectedGameObject(null);
     }
@@ -41,6 +43,8 @@ public class ChoixScript : MonoBehaviour
         nextDialog2.GetComponent<Canvas>().enabled = true;
         if(nextDialog2.GetComponent<DialogScript>() != null)
             nextDialog2.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog2.GetComponent<ActionScript>() != null)
+            nextDialog2.GetComponent<ActionScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
         eventSystem.SetSelectedGameObject(null);
     }
@@ -50,6 +54,8 @@ public class ChoixScript : MonoBehaviour
         nextDialog3.GetComponent<Canvas>().enabled = true;
         if (nextDialog3.GetComponent<DialogScript>() != null)
             nextDialog3.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog3.GetComponent<ActionScript>() != null)
+            nextDialog3.GetComponent<ActionScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
         eventSystem.SetSelectedGameObject(null);
     }
@@ -59,6 +65,8 @@ public class ChoixScript : MonoBehaviour
         nextDialog4.GetComponent<Canvas>().enabled = true;
         if (nextDialog4.GetComponent<DialogScript>() != null)
             nextDialog4.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog4.GetComponent<ActionScript>() != null)
+            nextDialog4.GetComponent<ActionScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
         eventSystem.SetSelectedGameObject(null);
 
