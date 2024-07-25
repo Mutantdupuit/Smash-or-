@@ -6,7 +6,7 @@ using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
-    Character player;
+    public Character player;
 
 
     // Start is called before the first frame update
@@ -22,5 +22,10 @@ public class GameManager : MonoBehaviour
         {
             // GAME OVER
         }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        player.Vie -= damage;
     }
 }
