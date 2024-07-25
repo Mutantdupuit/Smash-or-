@@ -8,6 +8,6 @@ public class Boris : Character
     {
         this.Mental = 100;
         this.Romance = 0;
-        this.Degat = 10;
+        //this.Degat = 10;
     }
 }
