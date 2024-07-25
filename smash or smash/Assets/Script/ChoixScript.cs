@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 public class ChoixScript : MonoBehaviour
@@ -9,6 +10,7 @@ public class ChoixScript : MonoBehaviour
     [SerializeField] GameObject nextDialog2;
     [SerializeField] GameObject nextDialog3;
     [SerializeField] GameObject nextDialog4;
+    [SerializeField] EventSystem eventSystem;
     public Button button1, button2, button3, button4;
     bool isReady = false;
     
@@ -31,6 +33,7 @@ public class ChoixScript : MonoBehaviour
         if (nextDialog1.GetComponent<DialogScript>() != null)
             nextDialog1.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
+        eventSystem.SetSelectedGameObject(null);
     }
 
     public void ShowNextDialog2()
@@ -39,6 +42,7 @@ public class ChoixScript : MonoBehaviour
         if(nextDialog2.GetComponent<DialogScript>() != null)
             nextDialog2.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
+        eventSystem.SetSelectedGameObject(null);
     }
 
     public void ShowNextDialog3()
@@ -47,6 +51,7 @@ public class ChoixScript : MonoBehaviour
         if (nextDialog3.GetComponent<DialogScript>() != null)
             nextDialog3.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
+        eventSystem.SetSelectedGameObject(null);
     }
 
     public void ShowNextDialog4()
@@ -55,7 +60,8 @@ public class ChoixScript : MonoBehaviour
         if (nextDialog4.GetComponent<DialogScript>() != null)
             nextDialog4.GetComponent<DialogScript>().enabled = true;
         this.GetComponent<Canvas>().enabled = false;
-        
+        eventSystem.SetSelectedGameObject(null);
+
     }
 
    public void SetActif(bool isActive)

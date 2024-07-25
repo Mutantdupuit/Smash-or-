@@ -1,14 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class Challenger : MonoBehaviour
 {
     [SerializeField] bool isBoris = false;
     [SerializeField] bool isFrenchman = false;
     [SerializeField] bool isCrewmate = false;
-
-    Character character;
+    [SerializeField] EventSystem eventSystem;
+    [SerializeField] int vie;
+    public Character character;
     // Start is called before the first frame update
     void Start()
     {
@@ -18,9 +20,16 @@ public class Challenger : MonoBehaviour
         }
     }
 
-    public void SetLife(int damage)
+    private void Update()
     {
-        character.Vie = damage;
+        vie = character.vie;
+    }
+
+    public void SetLife(int damage)
+    {   
+
+        character.Vie -= damage;
+        eventSystem.SetSelectedGameObject(null);
     }
 
     public void SetMental(int emotionaldamage) {
@@ -28,6 +37,7 @@ public class Challenger : MonoBehaviour
             character.Mental = emotionaldamage/2;
         }
         character.Mental = emotionaldamage;
+        eventSystem.SetSelectedGameObject(null);
     }
 
     public void SetRomance(int love)
@@ -36,5 +46,6 @@ public class Challenger : MonoBehaviour
             character.Romance = love*10;
         }
         character.Romance = love;
+        eventSystem.SetSelectedGameObject(null);
     }
 }
