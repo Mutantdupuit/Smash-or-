@@ -3473,6 +3473,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1654585840222017102, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654585840222017102, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1654585840222017102, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 11500000, guid: 66a2006c06a3a88419934f4607b3b177, type: 3}
+    - target: {fileID: 1654585840222017102, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3974037108633746841, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -3712,5 +3728,5 @@ SceneRoots:
   - {fileID: 882368083}
   - {fileID: 443429376}
   - {fileID: 4674174332532250615}
-  - {fileID: 246201048}
   - {fileID: 171402947}
+  - {fileID: 246201048}
