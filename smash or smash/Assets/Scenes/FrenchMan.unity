@@ -387,7 +387,7 @@ Transform:
   m_GameObject: {fileID: 10620138}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 381, y: 186, z: 0}
+  m_LocalPosition: {x: 581, y: 207, z: 0}
   m_LocalScale: {x: 155.12741, y: 155.12741, z: 155.12741}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -967,11 +967,11 @@ Transform:
   m_GameObject: {fileID: 530183943}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -98.714005, y: 1.0166267, z: -10}
-  m_LocalScale: {x: 0.6926167, y: 0.96135354, z: 1}
+  m_LocalPosition: {x: 369.4134, y: 187.00156, z: -10}
+  m_LocalScale: {x: 0.8531, y: 0.9470999, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 2052707590}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &552370416
 PrefabInstance:
@@ -1151,6 +1151,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -254.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19
+      objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1262,11 +1270,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: French Man
+      value: Frenchman
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_fontSize
       value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_margin.z
+      value: 37.842964
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_fontSizeBase
@@ -4542,11 +4554,10 @@ Transform:
   m_GameObject: {fileID: 2052707588}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 359.9049, y: 147.5458, z: 0}
+  m_LocalPosition: {x: 377, y: 164, z: 0}
   m_LocalScale: {x: 1.2317058, y: 0.9851734, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 530183946}
+  m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2099035320
@@ -4902,6 +4913,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3871148091940520393, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: eventSystem
+      value: 
+      objectReference: {fileID: 652992394}
+    - target: {fileID: 3871148091940520393, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: nextDialog1
       value: 
       objectReference: {fileID: 463854730}
@@ -5125,6 +5140,7 @@ SceneRoots:
   m_Roots:
   - {fileID: 652992395}
   - {fileID: 10620140}
+  - {fileID: 530183946}
   - {fileID: 1852793722}
   - {fileID: 9794143}
   - {fileID: 1207968171}
