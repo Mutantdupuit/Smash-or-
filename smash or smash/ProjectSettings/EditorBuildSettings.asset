@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Chemin.unity
     guid: 6eccc89f85024e2478ae8ec2f51f558f
   - enabled: 1
-    path: Assets/Scenes/Muscle.unity
+    path: Assets/Scenes/Boris.unity
     guid: d5a5fd00e2792a345bdc10da3fccf759
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
