@@ -38,4 +38,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BorisMariage.unity
     guid: 2a448b97a4cb76b4a9b4cc350cf050d7
+  - enabled: 1
+    path: Assets/Scenes/KaskaMariage.unity
+    guid: 6eb64d3ac25745c43b1e1d6c69640210
+  - enabled: 1
+    path: Assets/Scenes/BarmanMariage.unity
+    guid: a556e672460dc254799fa5caff6d663f
+  - enabled: 1
+    path: Assets/Scenes/CrewmateMariage.unity
+    guid: b01649157d4aa824aa89ae4dd66303c4
   m_configObjects: {}
