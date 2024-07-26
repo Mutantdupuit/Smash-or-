@@ -29,6 +29,7 @@ public class ChoixScript : MonoBehaviour
     
     public void ShowNextDialog1()
     {
+        nextDialog1.SetActive(true);
         nextDialog1.GetComponent<Canvas>().enabled = true;
         if (nextDialog1.GetComponent<DialogScript>() != null)
             nextDialog1.GetComponent<DialogScript>().enabled = true;
@@ -40,6 +41,7 @@ public class ChoixScript : MonoBehaviour
 
     public void ShowNextDialog2()
     {
+        nextDialog2.SetActive(true);
         nextDialog2.GetComponent<Canvas>().enabled = true;
         if(nextDialog2.GetComponent<DialogScript>() != null)
             nextDialog2.GetComponent<DialogScript>().enabled = true;
@@ -51,6 +53,7 @@ public class ChoixScript : MonoBehaviour
 
     public void ShowNextDialog3()
     {
+        nextDialog3.SetActive(true);
         nextDialog3.GetComponent<Canvas>().enabled = true;
         if (nextDialog3.GetComponent<DialogScript>() != null)
             nextDialog3.GetComponent<DialogScript>().enabled = true;
@@ -62,6 +65,7 @@ public class ChoixScript : MonoBehaviour
 
     public void ShowNextDialog4()
     {
+        nextDialog4.SetActive(true);
         nextDialog4.GetComponent<Canvas>().enabled = true;
         if (nextDialog4.GetComponent<DialogScript>() != null)
             nextDialog4.GetComponent<DialogScript>().enabled = true;

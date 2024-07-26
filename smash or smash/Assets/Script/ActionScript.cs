@@ -17,18 +17,18 @@ public class ActionScript : MonoBehaviour
     }
     public void ShowNextDialog()
     {
-        if  (nextDialog != null)
+        if (nextDialog != null)
             nextDialog.GetComponent<Canvas>().enabled = true;
-        if(nextDialog.GetComponent<DialogScript>() != null)
+        if (nextDialog.GetComponent<DialogScript>() != null)
             nextDialog.GetComponent<DialogScript>().enabled = true;
         if (nextDialog.GetComponent<SceneManager>())
             nextDialog.GetComponent<SceneManager>().enabled = true;
         nextDialog.SetActive(true);
-        GameObject.FindFirstObjectByType<GameManager>().TakeDamage(GameObject.FindFirstObjectByType<Challenger>().character.force);
+        FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
     }
 
 
-   
+
 }
