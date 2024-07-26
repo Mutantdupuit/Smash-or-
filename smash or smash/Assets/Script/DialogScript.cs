@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class DialogScript : MonoBehaviour
@@ -8,27 +9,27 @@ public class DialogScript : MonoBehaviour
     bool isReady = false;
     private void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             ShowNextDialog();
         }
     }
     public void ShowNextDialog()
     {
-        if  (nextDialog != null)
+        if (nextDialog != null)
             nextDialog.GetComponent<Canvas>().enabled = true;
-        if(nextDialog.GetComponent<DialogScript>() != null)
+        if (nextDialog.GetComponent<DialogScript>() != null)
             nextDialog.GetComponent<DialogScript>().enabled = true;
         if (nextDialog.GetComponent<ActionScript>() != null)
             nextDialog.GetComponent<ActionScript>().enabled = true;
         if (nextDialog.GetComponent<SceneManager>())
             nextDialog.GetComponent<SceneManager>().enabled = true;
-        
+
         nextDialog.SetActive(true);
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
         gameObject.SetActive(false);
     }
 
-   
+
 }
