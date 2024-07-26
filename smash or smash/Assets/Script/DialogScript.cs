@@ -23,11 +23,11 @@ public class DialogScript : MonoBehaviour
             nextDialog.GetComponent<ActionScript>().enabled = true;
         if (nextDialog.GetComponent<SceneManager>())
             nextDialog.GetComponent<SceneManager>().enabled = true;
-        if (nextDialog.GetComponent<FadeSystem>())
-            nextDialog.GetComponent<FadeSystem>().enabled = true;
+        
         nextDialog.SetActive(true);
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
+        gameObject.SetActive(false);
     }
 
    
