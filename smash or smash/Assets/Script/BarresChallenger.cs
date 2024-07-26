@@ -25,10 +25,12 @@ public class BarresCharacter : MonoBehaviour
         }
         else
         {
-            GameObject challenger = GameObject.Find(nameCharacter);
-            character = challenger.GetComponent<Challenger>().character;
+            Challenger challenger = FindObjectOfType<Challenger>();
+            //GameObject challenger = GameObject.Find(nameCharacter);
+            //character = challenger.GetComponent<Challenger>().character;
+            character = challenger.character;
         }
-        
+
     }
 
     // Update is called once per frame

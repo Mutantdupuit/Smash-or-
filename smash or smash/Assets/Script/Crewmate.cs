@@ -2,15 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Boris : Character
+public class Crewmate : Character
 {
-    
-    public Boris() : base()
+    public Crewmate() : base()
     {
         this.Mental = 100;
         this.Romance = 0;
-       
 
-        this.force = 20;
+
+        this.force = 30;
     }
 }

@@ -29,4 +29,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/GameOver.unity
     guid: 0e6cda6d308ac0b449f11e4c4da34c63
+  - enabled: 1
+    path: Assets/Scenes/Crewmate.unity
+    guid: 2c84b17b61d86d9448d2ff4ca863fb15
+  - enabled: 1
+    path: Assets/Scenes/Kaska.unity
+    guid: 45f578ecc5dcf04439920ef250aa5e72
   m_configObjects: {}
