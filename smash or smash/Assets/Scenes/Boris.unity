@@ -2684,7 +2684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Boris
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 4816807410584178719, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
@@ -5676,7 +5676,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Boris
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 4816807410584178719, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
