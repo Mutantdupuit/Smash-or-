@@ -935,6 +935,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Retour
       objectReference: {fileID: 0}
+    - target: {fileID: 5000337011888731017, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
       value: "Sortir le meilleur kung fu de notre panda int\xE9rieur"
@@ -944,8 +948,28 @@ PrefabInstance:
       value: 17
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_margin.w
+      value: 1.8961253
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSizeBase
       value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055875311019486270, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 76.5455
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055875311019486270, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -267
+      objectReference: {fileID: 0}
+    - target: {fileID: 6055875311019486270, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -186.79
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
@@ -962,6 +986,10 @@ PrefabInstance:
     - target: {fileID: 6541111937883755860, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
       value: ChoixCombat
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885405838255296120, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -107
       objectReference: {fileID: 0}
     - target: {fileID: 7226271342021733255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -2289,7 +2317,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -118
+      value: -108.9
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -2821,6 +2849,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Retour
       objectReference: {fileID: 0}
+    - target: {fileID: 5000337011888731017, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
       value: "La comparer \xE0 une fleur"
@@ -2848,6 +2880,10 @@ PrefabInstance:
     - target: {fileID: 6541111937883755860, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
       value: ChoixDrague
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885405838255296120, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -108.3
       objectReference: {fileID: 0}
     - target: {fileID: 7226271342021733255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
@@ -3216,7 +3252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -118
+      value: -105.3
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -3812,6 +3848,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 6484105800838818139, guid: e4a114d1c2fa9134f92cbce45bd52616, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6960771203783757482, guid: e4a114d1c2fa9134f92cbce45bd52616, type: 3}
       propertyPath: m_text
       value: Retour au Menu. Appuyez sur Espace.
@@ -3856,7 +3896,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -118
+      value: -107.5
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -4212,7 +4252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -118
+      value: -108
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -4300,7 +4340,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Tu es aussi cr\xE9dible que une mouche dans l\u2019eau."
+      value: "Tu es aussi cr\xE9dible qu'une mouche dans l\u2019eau."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4940,7 +4980,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "On a un point commun c'est vrai : on a les deux tu\xE9s beaucoup de
+      value: "On a un point commun c'est vrai : on a les deux tu\xE9 beaucoup de
         monde."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
@@ -5293,6 +5333,10 @@ PrefabInstance:
     - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -253.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -118
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -5806,6 +5850,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Retour
       objectReference: {fileID: 0}
+    - target: {fileID: 5000337011888731017, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
       value: Rendre gloire au barman
@@ -5833,6 +5881,14 @@ PrefabInstance:
     - target: {fileID: 6541111937883755860, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
       value: ChoixInsulte
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885405838255296120, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -233
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885405838255296120, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -106
       objectReference: {fileID: 0}
     - target: {fileID: 7226271342021733255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size

@@ -220,7 +220,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -7
+      value: 11.9
       objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
@@ -317,7 +317,7 @@ PrefabInstance:
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
       value: "Vous \xEAtes all\xE9s vivre sous l'oc\xE9an avec Dylan et pour cela
-        il vous a chang\xE9 en axolotl sous les conseils de Julien son ami proche."
+        il vous a chang\xE9 en axolotl sous les conseils de Lucien son ami proche."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -636,6 +636,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.000008
+      objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -716,6 +724,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3734471087718864384, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 223.87
+      objectReference: {fileID: 0}
     - target: {fileID: 5387637483973354471, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Name
       value: Crewmate (1)
@@ -731,6 +743,10 @@ PrefabInstance:
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
       value: Crewmate
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_margin.z
+      value: 55.78434
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -1053,15 +1069,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3974037108633746841, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3974037108633746841, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3974037108633746841, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3974037108633746841, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -1309,6 +1325,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -19.000008
+      objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -1389,6 +1413,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3734471087718864384, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 223.87
+      objectReference: {fileID: 0}
     - target: {fileID: 5387637483973354471, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Name
       value: Crewmate
@@ -1404,6 +1432,10 @@ PrefabInstance:
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
       value: Crewmate
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_margin.z
+      value: 47.287403
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -1948,6 +1980,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2752582737956625479, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -250.94
+      objectReference: {fileID: 0}
+    - target: {fileID: 2848453379473112429, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -118.2
+      objectReference: {fileID: 0}
     - target: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -2028,6 +2068,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3734471087718864384, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 223.87
+      objectReference: {fileID: 0}
     - target: {fileID: 5387637483973354471, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Name
       value: Crewmate
@@ -2042,7 +2086,13 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: 'crewmate
+
+'
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_margin.z
+      value: 31.353695
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
