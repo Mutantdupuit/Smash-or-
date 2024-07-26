@@ -3070,6 +3070,7 @@ MonoBehaviour:
   mental: 0
   romance: 0
   nextfight: Crewmate
+  mariage: BorisMariage
 --- !u!1001 &950054054
 PrefabInstance:
   m_ObjectHideFlags: 0
