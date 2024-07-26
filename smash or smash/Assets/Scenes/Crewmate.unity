@@ -3703,7 +3703,7 @@ MonoBehaviour:
   nextfight: Kaska
   mariage: CrewmateMariage
   challenger: {fileID: 718712731}
-  isnotRomance: 1
+  isnotRomance: 0
 --- !u!1 &1028925942
 GameObject:
   m_ObjectHideFlags: 0
@@ -5381,7 +5381,7 @@ MonoBehaviour:
   nextfight: Kaska
   mariage: CrewmateMariage
   challenger: {fileID: 718712731}
-  isnotRomance: 1
+  isnotRomance: 0
 --- !u!1 &1633498503
 GameObject:
   m_ObjectHideFlags: 0
@@ -5718,7 +5718,7 @@ MonoBehaviour:
   nextfight: Kaska
   mariage: CrewmateMariage
   challenger: {fileID: 718712731}
-  isnotRomance: 1
+  isnotRomance: 0
 --- !u!1001 &1778625975
 PrefabInstance:
   m_ObjectHideFlags: 0

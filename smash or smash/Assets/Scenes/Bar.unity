@@ -221,9 +221,12 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 54654248906613094, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+    - {fileID: 2046872863767426121, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+    - {fileID: 7049093065881757417, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+    - {fileID: 170282891688762101, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
-      insertIndex: 0
+      insertIndex: -1
       addedObject: {fileID: 2106376235}
     - targetCorrespondingSourceObject: {fileID: 3616485274035075073, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       insertIndex: -1
@@ -2528,7 +2531,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -165, y: -104}
+  m_AnchoredPosition: {x: -12.1, y: -104}
   m_SizeDelta: {x: 180, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1407042956
@@ -2619,7 +2622,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6a5b71c53a7421846a378f34dd3f5b26, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c5dae777cda8f74282078aace945189, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4117,7 +4120,7 @@ PrefabInstance:
     - target: {fileID: 4385054566785224375, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6a5b71c53a7421846a378f34dd3f5b26, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c5dae777cda8f74282078aace945189, type: 3}
     - target: {fileID: 4455181948932405807, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_SizeDelta.x
       value: 315.52
@@ -4201,7 +4204,7 @@ PrefabInstance:
     - target: {fileID: 7361726104964979787, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 21300000, guid: 6a5b71c53a7421846a378f34dd3f5b26, type: 3}
+      objectReference: {fileID: 21300000, guid: 0c5dae777cda8f74282078aace945189, type: 3}
     - target: {fileID: 8237632808774273901, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
       propertyPath: m_text
       value: " ToN PerE iL SeRAit PaS dealER DE wEeD? \ncAR t\u2019eS SAcrEMENt BIeN
@@ -4247,6 +4250,9 @@ PrefabInstance:
     m_RemovedGameObjects:
     - {fileID: 8120543146136163543, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
     - {fileID: 2758897380913561578, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+    - {fileID: 525299242272579437, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+    - {fileID: 7261389504954639217, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
+    - {fileID: 1833316366717907409, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 5751783080810555007, guid: 4746c515c6a39eb42adf6a837e161050, type: 3}
