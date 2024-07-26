@@ -224,7 +224,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Serait-ce un moustique que j'ai senti ?
+      value: 'Serait-ce un moustique que j''ai senti ?
+
+        *Riposte*'
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1193,7 +1195,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Argh ! C'est un coup de l\xE2che !"
+      value: "Argh ! C'est un coup de l\xE2che !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1475,7 +1477,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "J\u2019entends rien !"
+      value: "J\u2019entends rien !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1936,7 +1938,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: C'est pas la taille qui compte, mais comment on s'en sert !
+      value: 'C''est pas la taille qui compte, mais comment on s''en sert !
+
+        *Riposte*'
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3173,7 +3177,9 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Ik\xE9a ? Quelle est cette sorcellerie ?"
+      value: 'IKEA ? Quelle est cette sorcellerie ?
+
+        *Riposte*'
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3813,7 +3819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "*Esquive en faisant une roue avec \xE9l\xE9gance*\nBien essay\xE9 !"
+      value: "*Esquive en faisant une roue avec \xE9l\xE9gance*\nBien essay\xE9 !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode

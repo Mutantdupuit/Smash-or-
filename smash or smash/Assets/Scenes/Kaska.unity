@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Tu tentes quoi l\xE0 ?"
+      value: "Tu tentes quoi l\xE0 ?\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1191,7 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Tu as touch\xE9 ma faiblesse !"
+      value: "Tu as touch\xE9 ma faiblesse !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1471,7 +1471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "C'est pour \xE7a que je suis l\xE0 !"
+      value: "C'est pour \xE7a que je suis l\xE0 !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1930,7 +1930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Tu es en manque d\u2019inspiration ?"
+      value: "Tu es en manque d\u2019inspiration ?\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3201,6 +3201,7 @@ MonoBehaviour:
   mental: 0
   romance: 0
   nextfight: 
+  mariage: 
 --- !u!1001 &950054054
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3303,7 +3304,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Les vraies h\xE9ros ne sont pas ceux qui se montrent le plus."
+      value: "Les vraies h\xE9ros ne sont pas ceux qui se montrent le plus.\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3944,7 +3945,7 @@ PrefabInstance:
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
       value: "J\u2019ai des comp\xE9tences en chimie que tu n\u2019as pas, frappe
-        moi, je t\u2019empoisonne !"
+        moi, je t\u2019empoisonne !\n*Riposte*"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
