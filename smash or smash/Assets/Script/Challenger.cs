@@ -9,6 +9,7 @@ public class Challenger : MonoBehaviour
     [SerializeField] bool isBoris = false;
     [SerializeField] bool isFrenchman = false;
     [SerializeField] bool isCrewmate = false;
+    [SerializeField] bool isKaska = false;
     [SerializeField] EventSystem eventSystem;
     [SerializeField] int vie;
     [SerializeField] int mental;
@@ -20,6 +21,14 @@ public class Challenger : MonoBehaviour
         if(isBoris)
         {
             character = new Boris();
+        }
+        if (isCrewmate)
+        {
+            character = new Crewmate();
+        }
+        if (isKaska)
+        {
+            character = new Kaska();
         }
     }
 
