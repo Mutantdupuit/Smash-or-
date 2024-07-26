@@ -425,7 +425,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: fa91726e52fc92b4486e90b8626760b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f499f0ba1673ae94081a9f1a5468b1de, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1684,7 +1684,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Depuis que mes yeux ont crois\xE9 les tiens, je ne vie que pour ce
+      value: "Depuis que mes yeux ont crois\xE9 les tiens, je ne vit que pour ce
         moment.\r"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
