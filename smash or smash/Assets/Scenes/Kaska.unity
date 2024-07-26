@@ -224,7 +224,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: ' . . .'
+      value: "Tu tentes quoi l\xE0 ?"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -232,7 +232,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -366,7 +366,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Toi et moi c\u2019est comme ONE PIECE \xE7a ne se finira jamais."
+      value: "Je ne suis pas \xE9crivain, mais j'imagine tr\xE8s bien \xE9crire notre
+        histoire \xE0 deux."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -626,7 +627,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: I AM JOHN CENA ! TUTUDUDUUU, TUTUDUDUUU !
+      value: "Pikachu attaque \xE9clair ! C'est super efficace !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -764,7 +765,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Lui faire une prise de catch
+      value: "Attaque \xE9clair"
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -936,7 +937,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Lui donner une gifle
+      value: "Sortir le meilleur kung fu de notre panda int\xE9rieur"
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -948,7 +949,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Lui donner un coup de boule
+      value: Sortir la master sword
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -1190,7 +1191,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "Tu as touch\xE9 ma faiblesse !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1198,7 +1199,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -1332,7 +1333,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "*pose une main sur l\u2019\xE9paule*"
+      value: Tu serais pas little boy, car t'es vraiment une bombe qui fait des ravages.
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1470,7 +1471,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "C'est pour \xE7a que je suis l\xE0 !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1478,7 +1479,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -1648,7 +1649,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4351523707805767291, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: . . !
+      value: "Je te conseille d'abandonner, tu n'es pas \xE0 ta place ici !"
       objectReference: {fileID: 0}
     - target: {fileID: 4351523707805767291, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontStyle
@@ -1656,7 +1657,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 4816807410584178719, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
@@ -1929,7 +1930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "Tu es en manque d\u2019inspiration ?"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -1937,9 +1938,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: 'Boris
-
-'
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -2378,7 +2377,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Toi et toi gros front.
+      value: "C\u2019est pas avec ta cape que tu seras h\xE9ro\xEFque."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -2610,11 +2609,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5387637483973354471, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Name
-      value: Crewmate (1)
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "Aie aie aie \xE7a ne plaisante pas ici !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -2622,11 +2621,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2688,7 +2687,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378998278356715042, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 378998278356715042, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2708,7 +2707,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Lui lancer une disquette
+      value: "Se faire passer pour un po\xE8te\r"
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -2768,7 +2767,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3874921535603328501, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3874921535603328501, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2800,7 +2799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4155170718142311255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4155170718142311255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -2816,7 +2815,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Boris
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 4816807410584178719, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
@@ -2824,7 +2823,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Complimenter ses origines
+      value: "La comparer \xE0 une fleur"
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -2836,7 +2835,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Tenter un rapprochement physique
+      value: Tenter une disquette
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -3304,8 +3303,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "HE! Tu touches \xE0 ma sensibilit\xE9. Tu n\u2019es pas qualifi\xE9
-        pour parler de mon gros front !"
+      value: "Les vraies h\xE9ros ne sont pas ceux qui se montrent le plus."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3313,7 +3311,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -3447,7 +3445,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "Tu nous \xE0 cru dans un livre \xE0 l\u2019eau de rose ?"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3455,7 +3453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -3669,15 +3667,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5387637483973354471, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Name
-      value: yn 1
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Pardon je n\u2019ai pas entendu. Tu peux r\xE9p\xE9ter ?"
+      value: "Non, tu en es loin, car je suis encore l\xE0."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
       value: -1183493901
+      objectReference: {fileID: 0}
+    - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
+      propertyPath: m_text
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -3941,7 +3943,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: "J\u2019ai des comp\xE9tences en chimie que tu n\u2019as pas, frappe
+        moi, je t\u2019empoisonne !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -3949,7 +3952,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -4158,7 +4161,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Dans ta tronche de pot !
+      value: "Position digne d\u2019un ma\xEEtre shaolin !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4296,7 +4299,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Au niveau bagage intellectuelle, tu voyages l\xE9ger."
+      value: "Tu es aussi cr\xE9dible que une mouche dans l\u2019eau."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4434,8 +4437,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Arr\xEAte de faire ta princesse, le seul tr\xF4ne o\xFB tu t\u2019assoie
-        c\u2019est les chiottes."
+      value: "Le barman \xE0 plus de cul que toi."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4573,8 +4575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: "Sous l'oc\xE9an, sous l'oc\xE9an ! Tout doux, c'est bien mieux quand
-        on est heureux sous l'oc\xE9an !"
+      value: "Tu es telle la rose, belle mais avec des \xE9pines."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4712,7 +4713,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Tient de la part de Zidane !
+      value: "Au noms des d\xE9esses, Hylia, Din, Nayru et Farore !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4938,7 +4939,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: '*Rougit* . . .'
+      value: "On a un point commun c'est vrai : on a les deux tu\xE9s beaucoup de
+        monde."
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -4946,7 +4948,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -5239,7 +5241,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: . . .
+      value: C'est un peu classique.
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -5247,7 +5249,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8095168231453695540, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: Crewmate
+      value: Kaska
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
@@ -5385,7 +5387,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_text
-      value: QUE LE SECOND COMBAT COMMENCE!
+      value: "QUE L\u2019ULTIME COMBAT COMMENCE !"
       objectReference: {fileID: 0}
     - target: {fileID: 6994149181156951749, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_TextStyleHashCode
@@ -5669,7 +5671,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 378998278356715042, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 30
+      value: 50
       objectReference: {fileID: 0}
     - target: {fileID: 378998278356715042, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5689,7 +5691,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Parler de sa calvitie
+      value: Se moquer de sa cape
       objectReference: {fileID: 0}
     - target: {fileID: 3446960605712288732, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -5749,7 +5751,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3874921535603328501, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 20
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 3874921535603328501, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5781,7 +5783,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4155170718142311255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_IntArgument
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 4155170718142311255, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
@@ -5797,7 +5799,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: Boris
+      value: Nous
       objectReference: {fileID: 0}
     - target: {fileID: 4816807410584178719, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
@@ -5805,7 +5807,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: "Critiquer sa fragilit\xE9"
+      value: Rendre gloire au barman
       objectReference: {fileID: 0}
     - target: {fileID: 5576214523933772973, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize
@@ -5817,7 +5819,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_text
-      value: "L\u2019attaquer sur son air innocent"
+      value: La comparer avec une mouche
       objectReference: {fileID: 0}
     - target: {fileID: 6317503282097201672, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_fontSize

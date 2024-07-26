@@ -16,6 +16,7 @@ public class Challenger : MonoBehaviour
     [SerializeField] int mental;
     [SerializeField] int romance;
     [SerializeField] private string nextfight;
+    [SerializeField] private string mariage;
     public Character character;
     // Start is called before the first frame update
     void Awake()
@@ -40,6 +41,11 @@ public class Challenger : MonoBehaviour
         if (character.Vie<=0 || character.Mental<=0)
         {
             LoadScenenextfight();
+        }
+        if (character.Romance>=100)
+        {
+            LoadSceneMariage();
+            //mariage
         }
     }
 
@@ -84,5 +90,10 @@ public class Challenger : MonoBehaviour
     void LoadScenenextfight()
     {
         EditorSceneManager.LoadScene(nextfight);
+    }
+
+    void LoadSceneMariage()
+    {
+        EditorSceneManager.LoadScene(mariage);
     }
 }
