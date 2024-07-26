@@ -37,7 +37,7 @@ public class Challenger : MonoBehaviour
     private void Update()
     {
         vie = character.vie;
-        if (isBoris && character.Vie<=0 || character.Mental<=0)
+        if (character.Vie<=0 || character.Mental<=0)
         {
             LoadScenenextfight();
         }

@@ -32,4 +32,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Crewmate.unity
     guid: 2c84b17b61d86d9448d2ff4ca863fb15
+  - enabled: 1
+    path: Assets/Scenes/Kaska.unity
+    guid: 45f578ecc5dcf04439920ef250aa5e72
   m_configObjects: {}
