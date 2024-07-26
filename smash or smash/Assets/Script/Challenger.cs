@@ -12,11 +12,10 @@ public class Challenger : MonoBehaviour
     [SerializeField] bool isCrewmate = false;
     [SerializeField] bool isKaska = false;
     [SerializeField] EventSystem eventSystem;
-    [SerializeField] int vie;
-    [SerializeField] int mental;
-    [SerializeField] int romance;
-    [SerializeField] private string nextfight;
-    [SerializeField] private string mariage;
+    [SerializeField] public int vie;
+    [SerializeField] public int mental;
+    [SerializeField] public int romance;
+    
     public Character character;
     // Start is called before the first frame update
     void Awake()
@@ -37,16 +36,7 @@ public class Challenger : MonoBehaviour
 
     private void Update()
     {
-        vie = character.vie;
-        if (character.Vie<=0 || character.Mental<=0)
-        {
-            LoadScenenextfight();
-        }
-        if (character.Romance>=100)
-        {
-            LoadSceneMariage();
-            //mariage
-        }
+        
     }
 
     public void SetLife(int damage)
@@ -87,13 +77,5 @@ public class Challenger : MonoBehaviour
         
     }
 
-    void LoadScenenextfight()
-    {
-        EditorSceneManager.LoadScene(nextfight);
-    }
-
-    void LoadSceneMariage()
-    {
-        EditorSceneManager.LoadScene(mariage);
-    }
+    
 }
