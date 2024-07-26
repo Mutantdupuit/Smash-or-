@@ -11,6 +11,6 @@ public class Kaska : Character
         this.Romance = 0;
 
 
-        this.force = 15;
+        this.force = 25;
     }
 }
