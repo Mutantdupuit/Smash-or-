@@ -45,7 +45,8 @@ public class ActionScript : MonoBehaviour
         if (nextDialog.GetComponent<SceneManager>())
             nextDialog.GetComponent<SceneManager>().enabled = true;
         nextDialog.SetActive(true);
-        FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
+        if(isnotRomance == true)
+            FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
     }
@@ -59,7 +60,8 @@ public class ActionScript : MonoBehaviour
         if (nextDialog.GetComponent<SceneManager>())
             nextDialog.GetComponent<SceneManager>().enabled = true;
         nextDialog.SetActive(true);
-        
+        if (isnotRomance == true)
+            FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
     }
