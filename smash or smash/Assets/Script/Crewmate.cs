@@ -10,6 +10,6 @@ public class Crewmate : Character
         this.Romance = 0;
 
 
-        this.force = 30;
+        this.force = 15;
     }
 }

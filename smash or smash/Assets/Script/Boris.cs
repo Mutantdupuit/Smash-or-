@@ -11,6 +11,6 @@ public class Boris : Character
         this.Romance = 0;
        
 
-        this.force = 20;
+        this.force = 10;
     }
 }
