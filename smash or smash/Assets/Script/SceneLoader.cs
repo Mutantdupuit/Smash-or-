@@ -1,10 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class SceneManager : MonoBehaviour
+public class SceneLoader : MonoBehaviour
 {
     [SerializeField] private string NameScene;
     // Start is called before the first frame update
@@ -24,6 +21,6 @@ public class SceneManager : MonoBehaviour
 
     void LoadScene()
     {
-        EditorSceneManager.LoadScene(NameScene);
+        SceneManager.LoadScene(NameScene);
     }
 }

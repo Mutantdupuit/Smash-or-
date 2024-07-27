@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 70812f64a4ca01a44bf1186f84c20383
+  - enabled: 1
     path: Assets/Scenes/Bar.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
@@ -14,10 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: "Assets/Scenes/d\xE9butTournoi.unity"
     guid: ba902407aefd84545a2983700e2c5da9
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: 70812f64a4ca01a44bf1186f84c20383
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Credit.unity
     guid: 5cb1c017a40fc254ca20b1d3f4df5702
   - enabled: 1

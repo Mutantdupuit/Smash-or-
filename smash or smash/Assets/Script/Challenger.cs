@@ -1,9 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.TextCore.Text;
-using UnityEditor.SceneManagement;
 
 public class Challenger : MonoBehaviour
 {

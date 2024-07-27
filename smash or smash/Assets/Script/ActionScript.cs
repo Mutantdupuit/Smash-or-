@@ -1,6 +1,4 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class ActionScript : MonoBehaviour
@@ -42,8 +40,8 @@ public class ActionScript : MonoBehaviour
             nextDialog.GetComponent<Canvas>().enabled = true;
         if (nextDialog.GetComponent<DialogScript>() != null)
             nextDialog.GetComponent<DialogScript>().enabled = true;
-        if (nextDialog.GetComponent<SceneManager>())
-            nextDialog.GetComponent<SceneManager>().enabled = true;
+        if (nextDialog.GetComponent<SceneLoader>())
+            nextDialog.GetComponent<SceneLoader>().enabled = true;
         nextDialog.SetActive(true);
         if(isnotRomance == true)
             FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
@@ -57,8 +55,8 @@ public class ActionScript : MonoBehaviour
             nextDialog.GetComponent<Canvas>().enabled = true;
         if (nextDialog.GetComponent<DialogScript>() != null)
             nextDialog.GetComponent<DialogScript>().enabled = true;
-        if (nextDialog.GetComponent<SceneManager>())
-            nextDialog.GetComponent<SceneManager>().enabled = true;
+        if (nextDialog.GetComponent<SceneLoader>())
+            nextDialog.GetComponent<SceneLoader>().enabled = true;
         nextDialog.SetActive(true);
         if (isnotRomance == true)
             FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
@@ -67,12 +65,12 @@ public class ActionScript : MonoBehaviour
     }
     void LoadScenenextfight()
     {
-        EditorSceneManager.LoadScene(nextfight);
+        SceneManager.LoadScene(nextfight);
     }
 
     void LoadSceneMariage()
     {
-        EditorSceneManager.LoadScene(mariage);
+        SceneManager.LoadScene(mariage);
     }
 
 

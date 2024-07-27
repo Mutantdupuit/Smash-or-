@@ -1,10 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using TMPro;
-using UnityEditor.SceneManagement;
-using UnityEditor.Search;
-using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine;
 
 public class GameManager : MonoBehaviour
 {
@@ -35,6 +30,6 @@ public class GameManager : MonoBehaviour
 
     void LoadScene2()
     {
-        EditorSceneManager.LoadScene(GameOver);
+        SceneManager.LoadScene(GameOver);
     }
 }

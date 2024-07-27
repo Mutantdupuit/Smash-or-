@@ -1,9 +1,6 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEditor.SceneManagement;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 using UnityEngine.EventSystems;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
@@ -32,7 +29,7 @@ public class Menu : MonoBehaviour
 
     void LoadScene()
     {
-        EditorSceneManager.LoadScene(NameScene);
+        SceneManager.LoadScene(NameScene);
     }
 
     void Quitter() { 

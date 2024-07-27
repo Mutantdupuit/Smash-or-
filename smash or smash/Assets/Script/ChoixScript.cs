@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
@@ -83,7 +81,7 @@ public class ChoixScript : MonoBehaviour
 
     public void SetSceneSystem(GameObject sceneManager)
     {
-        if (sceneManager.GetComponent<SceneManager>() != null)
-             sceneManager.GetComponent<SceneManager>().enabled = true;
+        if (sceneManager.GetComponent<SceneLoader>() != null)
+             sceneManager.GetComponent<SceneLoader>().enabled = true;
     }
 }
