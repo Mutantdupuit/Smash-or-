@@ -17,7 +17,7 @@ public class ActionScript : MonoBehaviour
 
     private void Update()
     {
-        if (isnotRomance==true && Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        if (isnotRomance == true && Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
         {
             ShowNextDialog();
         }
@@ -31,6 +31,10 @@ public class ActionScript : MonoBehaviour
             LoadSceneMariage();
             //mariage
         }
+        if (isnotRomance == false && Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
+        {
+            ShowNextDialog2();
+        }
     }
     public void ShowNextDialog()
     {
@@ -42,6 +46,20 @@ public class ActionScript : MonoBehaviour
             nextDialog.GetComponent<SceneManager>().enabled = true;
         nextDialog.SetActive(true);
         FindFirstObjectByType<GameManager>().TakeDamage(FindFirstObjectByType<Challenger>().character.force);
+        this.GetComponent<Canvas>().enabled = false;
+        this.enabled = false;
+    }
+
+    public void ShowNextDialog2()
+    {
+        if (nextDialog != null)
+            nextDialog.GetComponent<Canvas>().enabled = true;
+        if (nextDialog.GetComponent<DialogScript>() != null)
+            nextDialog.GetComponent<DialogScript>().enabled = true;
+        if (nextDialog.GetComponent<SceneManager>())
+            nextDialog.GetComponent<SceneManager>().enabled = true;
+        nextDialog.SetActive(true);
+        
         this.GetComponent<Canvas>().enabled = false;
         this.enabled = false;
     }

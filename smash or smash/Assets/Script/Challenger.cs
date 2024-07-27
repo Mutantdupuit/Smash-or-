@@ -18,6 +18,7 @@ public class Challenger : MonoBehaviour
     
     public Character character;
     // Start is called before the first frame update
+    
     void Awake()
     {
         if(isBoris)
