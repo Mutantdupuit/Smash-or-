@@ -4107,7 +4107,7 @@ PrefabInstance:
       objectReference: {fileID: 530183945}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8195673038150939775, guid: aa0cb039433b61549bf692dc7cfadcc9, type: 3}
       propertyPath: m_RenderMode
@@ -4936,6 +4936,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 2710165491413445665, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -257.5
+      objectReference: {fileID: 0}
     - target: {fileID: 3871148091940520393, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -5016,13 +5020,21 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_text
+      value: Frenchman
+      objectReference: {fileID: 0}
+    - target: {fileID: 4508211641565599757, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
+      propertyPath: m_margin.z
+      value: 33.502342
+      objectReference: {fileID: 0}
     - target: {fileID: 5000337011888731017, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 530183945}
     - target: {fileID: 5000337011888731017, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6541111937883755860, guid: 2537afdbc276e4d4c8655f8adda8ee32, type: 3}
       propertyPath: m_Name
